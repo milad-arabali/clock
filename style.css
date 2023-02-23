@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+.clock{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: aqua;
+    font-size: 60px;
+    letter-spacing: 5px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+}
